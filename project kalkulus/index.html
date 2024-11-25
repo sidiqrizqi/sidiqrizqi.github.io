@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Kalkulus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Halaman Selamat Datang -->
+    <section id="welcome-section" style="display: block; text-align: center; padding: 200px; color:yellow">
+        <h1>Selamat Datang di Fungsi Eksponensial</h1>
+        <button onclick="showHome()">Masuk</button>
+    </section>
+
+    <!-- Halaman Home -->
+    <section id="home-section" style="display: none;">
+        <!-- NAVIGATION BAR -->
+        <div class="container-navbar">
+            <a>Eksponensial</a>
+            <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="#" class="a-navbar">Home</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="kalkulator.html" class="a-navbar">Kalkulator</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="quiz.html" class="a-navbar">Quiz</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="about.html" class="a-navbar">About</a>
+                </li>
+            </ul>
+        </div>
+        <!-- NAVIGATION BAR SELESAI -->
+    
+        <!-- KONTEN UTAMA -->
+        <div class="content-container">
+            <h1>Eksponensial</h1>
+            <p>
+                <h3>Pengertian Eksponensial</h3>
+                Fungsi eksponensial adalah suatu konsep matematika yang menggambarkan pertumbuhan atau penurunan yang berlangsung secara berkelanjutan atau penurunan yang berlangsung secara berkelanjutan dengan laju tertentu. Pertumbuhan atau penurunan eksponensial terjadi ketika suatu nilai bertambah atau berkurang dengan faktor tetap (berdasarkan pangkat atau eksponen) pada setiap periode waktu.
+            </p>
+            <img src="gambar2.png" />
+            <ul>
+                <li>(a) adalah konstanta yang mengubah skala atau posisi fungsi.</li>
+                <li>(b) adalah basis eksponensial, biasanya (b > 0) dan (b &ne; 1).</li>
+                <li>(x) adalah variabel yang berada di dalam eksponen.</li>
+            </ul>
+            <p>
+              Macam-macam fungsi eksponensial :
+            </p>
+            <ol type="1">
+                <li>
+                    <strong>Fungsi Eksponensial Dasar</strong> adalah salah satu konsep matematika yang melibatkan fungsi dengan variabel pada posisi eksponen.Dalam bentuk sederhana, eksponensial dasar dapat dituliskan sebagai: <br>
+                    <img src="gambar9.png">
+                    <br>Dimana :
+                    <ul type="disc">
+                        <li>a adalah bilangan dasar (konstanta positif, a > 0, dan a &ne; 1).</li>
+                        <li> x adalah eksponen (variabel).</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Fungsi Eksponensial Pertumbuhan </strong>adalah fungsi matematika yang menggambarkan pertumbuhan suatu kuantitas secara eksponensial, yaitu ketika laju pertumbuhan proporsional terhadap nilai kuantitas itu sendiri. Bentuk umum fungsi ini adalah: <br>
+                    <img src="gambar10.png">
+                    <br>Dimana :
+                    <ul type="disc">
+                        <li>f(t) : nilai pada waktu t</li>
+                        <li>P<sub>0</sub> : nilai awal (ketika t = 0)</li>
+                        <li>e : bilangan Euler (e≈2.718)</li>
+                        <li>k > 0 : laju pertumbuhan</li>
+                        <li>t : waktu</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Fungsi Eksponensial Peluruhan</strong> adalah fungsi yang menggambarkan penurunan suatu kuantitas secara eksponensial seiring waktu, di mana laju peluruhan proporsional terhadap nilai kuantitas itu sendiri. Bentuk umumnya adalah: <br>
+                    <img src="gambar11.png">
+                    <br>Dimana :
+                    <ul type="disc">
+                        <li>f(t) : nilai pada waktu t</li>
+                        <li>P<sub>0</sub> : nilai awal (ketika t = 0)</li>
+                        <li>e : bilangan Euler (e≈2.718)</li>
+                        <li>k > 0 : laju peluruhan</li>
+                        <li>t : waktu</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Fungsi Eksponensial Alami</strong> adalah adalah fungsi eksponensial dengan basis e, yaitu bilangan Euler (e≈2.718). Fungsi ini memiliki bentuk umum: <br>
+                    <img src="gambar4.png">
+                    <br>Dimana :
+                    <ul type="disc">
+                        <li>e adalah basis eksponensial alami</li>
+                        <li>x adalah eksponen, bisa berupa bilangan riil positif, negatif, atau nol.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Fungsi Eksponensial Diskrit</strong> adalah fungsi yang menggambarkan pertumbuhan atau peluruhan eksponensial dalam suatu rentang waktu yang diskrit (berjarak atau tidak kontinu). Fungsi ini memiliki bentuk umum: <br>
+                    <img src="gambar12.png">
+                    <br> Dimana : 
+                    <ul type="disc">
+                        <li>P(t) : nilai pada waktu t</li>
+                        <li>P<sub>0</sub> : nilai awal</li>
+                        <li>r : tingkat perubahan (pertumbuhan atau peluruhan per periode)</li>
+                        <ul type="disc">
+                            <li>jika r > 0 :fungsi menggambarkan pertumbuhan</li>
+                            <li>jika r < 0 :fungsi menggambarkan peluruhan</li>
+                        </ul>
+                        <li>t : jumlah periode waktu diskrit</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        function showHome() {
+            document.getElementById('welcome-section').style.display = 'none';
+            document.getElementById('home-section').style.display = 'block';
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
